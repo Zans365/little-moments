@@ -1,0 +1,7 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#FFF9F0"/>
+  <rect width="360" height="260" x="20" y="20" fill="white" stroke="#F3C6D3" stroke-width="2"/>
+  <text x="200" y="150" font-family="Cormorant Garamond, serif" font-size="24" text-anchor="middle" fill="#D99AAA">
+    Memory Moment
+  </text>
+</svg>

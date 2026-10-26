@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Caveat:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFF9F0;
+  color: #3D302F;
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+.memory-card {
+  background: white;
+  border: 8px solid #FFF9F0;
+  box-shadow: 0 4px 12px rgba(61, 48, 47, 0.1);
+  transition: all 0.3s ease;
+}
+
+.memory-card:hover {
+  box-shadow: 0 8px 20px rgba(61, 48, 47, 0.15);
+  transform: translateY(-2px);
+}
+
+.tape-decoration {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(61, 48, 47, 0.1);
+  transform: rotate(-2deg);
+}
+
+.polaroid-frame {
+  background: white;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
